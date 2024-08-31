@@ -10,10 +10,3 @@ Esta actividad consiste en verificar si un número es primo. Utiliza módulos Co
   - **ES Modules (`esm.mjs`):** Importa la función `esPrimo` y utiliza variables de entorno para mostrar resultados en la consola.
 
 
-## Instalación
-
-1. Clonar el repositorio:
-
-   ```bash
-   git clone https://github.com/tu-usuario/aplicaciones-hibridas-comision.git
-   cd aplicaciones-hibridas-comision
