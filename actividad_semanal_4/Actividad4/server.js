@@ -75,12 +75,12 @@ app.get("/productos", (req, res) => {
         return precioMinimo && precioMaximo;
     });
 
-    // Si no se encuentran productos en el rango, devolver mensaje de error
+    
     if (productosFiltrados.length === 0) {
         return res.status(404).send({ error: "No se encontraron productos en el rango de precios especificado." });
     }
 
-    // Devolver productos filtrados o todos si no hay filtros
+    
     res.send({ productos: productosFiltrados });
 });
 
