@@ -1,0 +1,60 @@
+/* Importa la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Variables globales */
+:root {
+    --color-dark: #0b0b0d;
+    --color-pink: #d9297b;
+    --color-rose: #F235B0;
+    --color-yellow: #F2D027;
+    --color-white: #fff;
+
+    --border-radius: 2rem;
+    --btn-padding: 0.6rem 2rem;
+}
+
+/* Estilo global */
+body {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+}
+
+/* Personalizar el Navbar */
+.navbar {
+    background-color: var(--color-dark) !important;
+    border-radius: var(--border-radius);
+}
+
+.navbar-brand {
+    color: var(--color-yellow) !important;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: var(--color-white) !important;
+    padding: var(--btn-padding);
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: var(--color-pink);
+    color: var(--color-dark) !important;
+}
+
+/* Botones personalizados */
+.custom-button {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    border-radius: var(--border-radius);
+    padding: var(--btn-padding);
+    transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: var(--color-rose);
+    color: var(--color-dark);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

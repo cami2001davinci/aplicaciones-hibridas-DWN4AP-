@@ -1,0 +1,12 @@
+/* Estilos personalizados para NewPostForm */
+.card {
+    margin-top: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  textarea {
+    resize: none;
+  }

@@ -1,0 +1,12 @@
+/* Estilos personalizados para Post */
+.card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
